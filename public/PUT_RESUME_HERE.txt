@@ -1,0 +1,13 @@
+To make the "DOWNLOAD_RESUME.pdf" button on the About page actually download
+your resume:
+
+1. Put your resume PDF in this folder (public/).
+2. Name it exactly: resume.pdf
+   (public/resume.pdf)
+
+Vite serves everything in `public/` from the site root, so no code changes
+are needed — the button already points at `/resume.pdf` and will trigger a
+real download once the file is here.
+
+If you'd rather use a different filename, update the `href` in
+`src/pages/About.jsx` (search for `resume.pdf`) to match.
