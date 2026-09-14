@@ -67,7 +67,12 @@ const PROJECTS = [
     desc: "Backend platform for Quran-related services featuring authentication, audio processing, API integrations, user profiles, communities, leaderboards, and subscription functionality.",
     stack: ["Python", "FastAPI", "PostgreSQL", "Redis", "Celery"],
     status: "COMPLETED",
-    repository: "Available on request",
+    repos: [
+      {
+        label: "Code Repo",
+        url: "https://github.com/xjackhammered/Quran_API_recent-"
+      }
+    ]
   },
   {
     id: "media-shelf",
@@ -76,7 +81,12 @@ const PROJECTS = [
     desc: "Full-stack media management application with a Django backend and React frontend for organizing and managing digital media through a REST-based architecture.",
     stack: ["Django", "React", "REST API"],
     status: "COMPLETED",
-    repository: "Available on request",
+    repos: [
+      {
+        label: "Code Repo",
+        url: "https://github.com/xjackhammered/Digital-Media-Shelf"
+      }
+    ]
   },
   {
     id: "blockchain-ehr",
